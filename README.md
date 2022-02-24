@@ -62,7 +62,7 @@ Follow these instructions to change SMSBios:
     - Save the file
 3. Boot with the necessary [BIOS settings](#BIOS-Settings)
 
-# [BIOS Settings]
+# BIOS Settings
 
 | SATA Operation | ACHI |
 | --- | --- |
@@ -81,7 +81,7 @@ Follow these instructions to change SMSBios:
 - Thunderbolt hot plugging does not work
 - On first boot, screen is about 60% normal brightness. There is however a [workaround](#Screen-Workaround).
 
-# [Screen Workaround]
+# Screen Workaround
 
 During the first boot, the screen brightness is about 60% its normal brightness. However, after a sleep cycle, the screen brightness will be back to 100%. As a result the workaround is as simple as creating a script to run on login.
 
