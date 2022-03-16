@@ -25,9 +25,7 @@
 | Webcam | - | ✅ Working |
 | MicroSD Card | - | ✅ Working |
 | Fingerprint Sensor | Goodfix | ❌ Not Working |
-| Display | 1920 x 1200 FHD LCD | Partially Working* |
-
-*- Refer to [Screen Workaround](#screen-workaround) for more details
+| Display | 1920 x 1200 FHD LCD | ✅ Working |
 
 # Using EFI
 
@@ -44,9 +42,9 @@ Follow these instructions to change SMSBios:
         
         ```bash
         Type:         MacBookAir9,1
-        Serial:       C02XG0FDH7JY
-        Board Serial: C02839303QXH69FJA
-        SmUUID:       DBB364D6-44B2-4A02-B922-AB4396F16DA8
+        Serial:       CXXXXXXXXXXX
+        Board Serial: CXXXXXXXXXXXXXXXX
+        SmUUID:       XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
         ```
         
     - In the `config.plist`, map the above output to the following values
@@ -79,15 +77,4 @@ Follow these instructions to change SMSBios:
 # Known Issues
 
 - Thunderbolt hot plugging does not work
-- On first boot, screen is about 60% normal brightness. There is however a [workaround](#Screen-Workaround).
-
-# Screen Workaround
-
-During the first boot, the screen brightness is about 60% its normal brightness. However, after a sleep cycle, the screen brightness will be back to 100%. As a result the workaround is as simple as creating a script to run on login.
-
-```bash
-pmset sleepnow
-sudo killall Terminal
-```
-
-The first line will sleep the computer, and the second line will automatically quite the terminal.
+- ~~On first boot, screen is about 60% normal brightness.~~ (Fixed with latest Whatevergreen driver)

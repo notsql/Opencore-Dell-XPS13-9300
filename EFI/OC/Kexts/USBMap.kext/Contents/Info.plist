@@ -78,7 +78,7 @@
 					<key>HS04</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>9</integer>
+						<integer>10</integer>
 						<key>port</key>
 						<data>
 						BAAAAA==
@@ -114,7 +114,7 @@
 					<key>HS08</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>9</integer>
+						<integer>10</integer>
 						<key>port</key>
 						<data>
 						CAAAAA==
