@@ -2,9 +2,9 @@
 
 # Details
 
-| OpenCore Version | 0.7.8 |
+| OpenCore Version | 0.8.3 |
 | --- | --- |
-| macOS Version | 11.6.5 (Big Sur) |
+| macOS Version | 12.5.1 (Big Sur) |
 | SMSBios | MacBookAir9,1 |
 
 # Hardware Specifications
@@ -13,12 +13,10 @@
 | --- | --- | --- |
 | CPU | Intel Core i7-1065G7 | ✅ Working |
 | GPU | Intel Iris Plus Graphics | ✅ Working |
-| Chipset | Intel 495 | ✅ Working |
 | RAM | DDR4x 16GB - Onboard  | ✅ Working |
 | Audio | Realtek ALC3281-CG | ✅ Working |
 | WiFi | Killer AX1650s | ✅ Working |
 | Bluetooth | - | ✅ Working |
-| LAN | Intel i219-LM | ✅ Working |
 | SSD | WD SN730 | ✅ Working |
 | Keyboard | - | ✅ Working |
 | Trackpad | I2C Connection | ✅ Working |

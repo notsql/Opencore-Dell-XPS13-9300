@@ -4,6 +4,6 @@ DefinitionBlock("", "SSDT", 2, "DRTNIA", "GPI0", 0)
     
     If (_OSI("Darwin"))
     {
-        GPHD = Zero
+        \GPEN = Zero
     }
 }
