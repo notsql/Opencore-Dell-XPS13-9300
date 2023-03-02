@@ -2,7 +2,7 @@
 
 # Details
 
-| OpenCore Version | 0.7.8 |
+| OpenCore Version | 0.8.9 |
 | --- | --- |
 | macOS Version | 11.6.5 (Big Sur) |
 | SMSBios | MacBookAir9,1 |
